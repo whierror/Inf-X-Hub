@@ -1,0 +1,940 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local colors = {
+    SchemeColor = Color3.fromRGB(0,255,255),
+    Background = Color3.fromRGB(0, 0, 0),
+    Header = Color3.fromRGB(0, 0, 0),
+    TextColor = Color3.fromRGB(218,218,218),
+    ElementColor = Color3.fromRGB(20, 20, 20)
+}
+local Window = Library.CreateLib("Infinite X Hub", colors)
+--Themes:
+  --  LightTheme
+  --  DarkTheme
+  --  GrapeTheme
+  --  BloodTheme
+  --  Ocean
+  -- Midnight
+  --  Sentinel
+  --  Synapse
+local Tab = Window:NewTab("Main")
+local Section = Tab:NewSection("No Hat Script")
+
+Section:NewButton("Neko Maid", "Meko Naid lol", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/whierror/4e532dacd14e14d09782a3163d89768d/raw/f48157594d7d2e2d5eca720a298966604359762d/Neko%2520Maid%2520Script"))()
+
+end)
+
+Section:NewButton("Ender V2", "I Like It :D", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/whierror/54a89f389d84b96e3b4c24604a13804d/raw/cc7d2c787856ebcb3fc816e51880e8243db40adf/Ender%2520V2%2520Script"))()
+end)
+
+local Tab = Window:NewTab("Hat")
+local Section = Tab:NewSection("Hat Script")
+
+Section:NewButton("Neptune Switcher v2", "neptune universe (Hat : Slasher)", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/whierror/2370182d6202e63105db2111a2765cd6/raw/41fa11f798172541178cbe5fc5ff461b532cffe7/Neptune%2520Switcher%2520v2%2520Script"))()
+end)
+
+Section:NewButton("Neptune (/e sit & /e glitch)", "/e sit lol (Hat : Slasher)", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/whierror/513d21621061b3e837cbe7176b0d293e/raw/62890fd0360fcb977e7be0d6b057767a56f58f1a/Neptune%2520Switcher%2520v2%2520Script%2520(slash%2520e%2520sit%2520&%2520slash%2520e%2520glitch)"))()
+end)
+
+Section:NewButton("Sniper (broken sometimes)", "Pro Aim Guy (Hat : Dev Deck)", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/whierror/49cb55abf51f4f37fb89b62365908a07/raw/5f914bdd75c948507d079a0e1f246bb4f09685b2/Sniper%2520Script%2520(Flings)"))()
+end)
+
+local Tab = Window:NewTab("GUI/Hub")
+local Section = Tab:NewSection("Gui/Hub Script")
+
+Section:NewButton("Fling Gui", "Fling lel", function()
+    --[[Fling GUI]]--
+--[[Made by topit]]--
+loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+--This link auto updates, so there's no need to update this file.
+end)
+
+Section:NewButton("Energize Gui", "animatien", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/RmD3qNp7", true))()
+end)
+
+Section:NewButton("V.G Hub", "fun vg lol", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+Section:NewButton("Owl Hub", "wake at night lol", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CriShoux/OwlHub/master/OwlHub.txt"))();
+end)
+
+Section:NewButton("Da Hood Gui (Shazam)", "cool da hod", function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Pvpahh/enclosed/main/enclosed'))()
+ 
+--discord.gg/uucHz2d3
+end)
+
+Section:NewButton("Domain Hub", "wow smart", function()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domain/main/source'),true))()
+end)
+
+local Tab = Window:NewTab("Admin")
+local Section = Tab:NewSection("Admin Script")
+
+Section:NewButton("CMD X", "cmd", function()
+--[[----------------------------------------------------------------
+|                ▄▀▄▄▄▄   ▄▀▀▄ ▄▀▄  ▄▀▀█▄▄   ▄▀▀▄  ▄▀▄             |
+|               █ █    ▌ █  █ ▀  █ █ ▄▀   █ █    █   █             |
+|              ▐ █      ▐  █    █ ▐ █    █ ▐     ▀▄▀               |
+|                █        █    █    █    █      ▄▀ █               |
+|               ▄▀▄▄▄▄▀ ▄▀   ▄▀    ▄▀▄▄▄▄▀     █  ▄▀               |
+|              █     ▐  █    █    █     ▐    ▄▀  ▄▀                |
+|              ▐        ▐    ▐    ▐         █    ▐                 |
+|               ▐        ▐    ▐    ▐         █    ▐                |
+|------------------------------------------------------------------|
+|    Credits:    | Binds & Info:                                   |
+|    pigeon#1818 | U                         Open and close output |
+|        hz#4777 | RShift                          Fill suggestion |
+|     Curvn#2646 | ;                               Focus on CMDBar |
+| -------------- | Q                                Open and close |
+|      6033#6033 | LShift+Bksp                        Clear CMDbar |
+|       Luy#5555 |                                                 |
+|      U0ZT#4232 | .cmds                             List commands |
+----------------------------------------------------------------]]--
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CMD-X/CMD-X/master/Source",true))()
+end)
+
+Section:NewButton("Infinte Yield", "inf for u", function()
+local AnnGUI = Instance.new("Frame")
+local background = Instance.new("Frame")
+local TextBox = Instance.new("TextLabel")
+local shadow = Instance.new("Frame")
+local PopupText = Instance.new("TextLabel")
+local Exit = Instance.new("ImageButton")
+
+screenGui = Instance.new("ScreenGui",game.CoreGui)
+
+AnnGUI.Name = 'Boomer'
+AnnGUI.Parent = screenGui
+AnnGUI.Active = true
+AnnGUI.BackgroundTransparency = 1
+AnnGUI.Position = UDim2.new(0.5, -180, 0, -400)
+AnnGUI.Size = UDim2.new(0, 360, 0, 20)
+AnnGUI.ZIndex = 4
+
+background.Name = "background"
+background.Parent = AnnGUI
+background.BackgroundColor3 = Color3.fromRGB(36, 36, 37)
+background.BorderSizePixel = 0
+background.Position = UDim2.new(0, 0, 0, 20)
+background.Size = UDim2.new(0, 360, 0, 135)
+
+TextBox.Parent = background
+TextBox.BackgroundTransparency = 1
+TextBox.Position = UDim2.new(0.017, 0, 0.06, 0)
+TextBox.Size = UDim2.new(0, 348, 0, 120)
+TextBox.Font = Enum.Font.SourceSans
+TextBox.TextSize = 18
+TextBox.TextWrapped = true
+TextBox.Text = 'Please use the new Infinite Yield loadstring. You can find it in the Discord.\n\ndiscord.io/infiniteyield\n\nYou will now be re-directed to the new loadstring.'
+TextBox.TextColor3 = Color3.new(1, 1, 1)
+TextBox.TextXAlignment = Enum.TextXAlignment.Left
+TextBox.TextYAlignment = Enum.TextYAlignment.Top
+
+shadow.Name = "shadow"
+shadow.Parent = AnnGUI
+shadow.BackgroundColor3 = Color3.fromRGB(46, 46, 47)
+shadow.BorderSizePixel = 0
+shadow.Size = UDim2.new(0, 360, 0, 20)
+shadow.ZIndex = 4
+
+PopupText.Name = "PopupText"
+PopupText.Parent = shadow
+PopupText.BackgroundTransparency = 1
+PopupText.Position = UDim2.new(0, 51, 0, 0)
+PopupText.Size = UDim2.new(0.76, -16, 0.95, 0)
+PopupText.ZIndex = 4
+PopupText.Font = Enum.Font.SourceSans
+PopupText.TextSize = 14
+PopupText.Text = "Server Announcement"
+PopupText.TextColor3 = Color3.new(1, 1, 1)
+PopupText.TextWrapped = true
+
+Exit.Name = "Exit"
+Exit.Parent = shadow
+Exit.BackgroundTransparency = 1
+Exit.Size = UDim2.new(0, 20, 0, 20)
+Exit.ZIndex = 4
+Exit.Image = "rbxassetid://2132544126"
+
+wait(1)
+AnnGUI:TweenPosition(UDim2.new(0.5, -180, 0, 150), "InOut", "Quart", 0.5, true, nil)
+
+Exit.MouseButton1Click:Connect(function()
+ AnnGUI:TweenPosition(UDim2.new(0.5, -180, 0, -400), "InOut", "Quart", 0.5, true, nil)
+ wait(0.6)
+ AnnGUI:Destroy()
+end)
+
+wait(5)
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'),true))()
+end)
+
+Section:NewButton("Fate Admin", "give me fate plz", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+end)
+
+local Tab = Window:NewTab("Note")
+local Section = Tab:NewSection("i dont make inf yield cus didnt found new one")
+local Section = Tab:NewSection("More Script are coming soon")
+local Section = Tab:NewSection("No Neptunian V Becouse It Break hub")
+local Section = Tab:NewSection("Dark dex (synapse) in inf yield")
+local Section = Tab:NewSection("Didn't found Domain X")
+
+local Tab = Window:NewTab("LocalPlayer")
+local Section = Tab:NewSection("LocalPlayer")
+
+Section:NewSlider("WalkSpeed", "Speed", 250, 16, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
+end)
+
+Section:NewSlider("JumpPower", "Jumppower changes", 250, 50, function(s) -- 500 (MaxValue) | 0 (MinValue)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = s
+end)
+
+Section:NewTextBox("Custom WalkSpeed", "Speed", function(txt)
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = txt
+end)
+
+Section:NewTextBox("Custom JumpPower", "Jumppower changes", function(txt)
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = txt
+end)
+
+Section:NewButton("Reset WalkSpeed", "Resets WalkSpeed", function()
+    game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 16
+end)
+
+Section:NewButton("Reset JumpPower", "Resets JumpPower", function()
+    game.Players.LocalPlayer.Character.Humanoid.JumpPower = 50
+end)
+
+local Tab = Window:NewTab("some epic")
+local Section = Tab:NewSection("some epic script")
+
+Section:NewButton("Dex Explorer", "Nice Roblox studio hack", function()
+loadstring(game:GetObjects("rbxassetid://418957341")[1].Source)()
+-- Discord: https://discord.gg/UGVxEQNWaW
+end)
+
+Section:NewButton("Chat Bypass", "you can swearing", function()
+loadstring(game:HttpGet("https://the-shed.xyz/roblox/scripts/ChatBypass", true))()
+end)
+
+Section:NewButton("misonware npc are smart rp", "free morph and robuk", function()
+game.StarterGui:SetCore("SendNotification", {
+Title = "Misonware";
+Text = "Groovy's Anti-Exploit and Anti-Spam bypassed";
+Duration = 5;
+})
+local lplr = game.Players.LocalPlayer
+local lname = lplr.Character
+local welcome = lplr.Character.Name
+local misonware = Instance.new("ScreenGui")
+local window = Instance.new("Frame")
+local corner = Instance.new("UICorner")
+local gradient = Instance.new("UIGradient")
+local page = Instance.new("Frame")
+local serverside = Instance.new("Frame")
+local serverside_2 = Instance.new("TextLabel")
+local killall = Instance.new("TextButton")
+killall.MouseButton1Down:connect(function()
+    for _,v in pairs(game:GetService("Players"):GetPlayers()) do
+        if v.Name ~= game:GetService("Players").LocalPlayer.Name then
+            game.Players.LocalPlayer.Backpack.Handgun.ServerScript.RemoteFunction:InvokeServer(v.Character, math.huge)
+        end
+    end
+end)
+local gradient_2 = Instance.new("UIGradient")
+local ghost = Instance.new("TextButton")
+ghost.MouseButton1Down:connect(function()
+    game.Workspace.Items.Ghost.Ghost:InvokeServer()
+end)
+local gradient_3 = Instance.new("UIGradient")
+local _100money = Instance.new("TextButton")
+_100money.MouseButton1Down:connect(function()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+    game.Workspace.Money.RemoteFunction:InvokeServer()
+end)
+local gradient_4 = Instance.new("UIGradient")
+local godmode = Instance.new("TextButton")
+godmode.MouseButton1Down:connect(function()
+while true do
+    game.Players.LocalPlayer.Backpack.Handgun.ServerScript.RemoteFunction:InvokeServer(lname, -1000000)
+    wait(0.01)
+end
+end)
+local gradient_5 = Instance.new("UIGradient")
+local morphs = Instance.new("Frame")
+local dream = Instance.new("TextButton")
+dream.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("Dream")
+end)
+local gradient_6 = Instance.new("UIGradient")
+local morphs_2 = Instance.new("TextLabel")
+local christmascath = Instance.new("TextButton")
+christmascath.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("ChristmasCath")
+end)
+local gradient_7 = Instance.new("UIGradient")
+local invisible = Instance.new("TextButton")
+invisible.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("Creeper")
+end)
+local gradient_8 = Instance.new("UIGradient")
+local blasck = Instance.new("TextButton")
+blasck.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("Blasck")
+end)
+local gradient_9 = Instance.new("UIGradient")
+local johannes = Instance.new("TextButton")
+johannes.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("John")
+end)
+local gradient_10 = Instance.new("UIGradient")
+local alien = Instance.new("TextButton")
+alien.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("Alien")
+end)
+local gradient_11 = Instance.new("UIGradient")
+local zombie = Instance.new("TextButton")
+zombie.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("Zombie")
+end)
+local gradient_12 = Instance.new("UIGradient")
+local narl = Instance.new("TextButton")
+narl.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("Narl")
+end)
+local gradient_13 = Instance.new("UIGradient")
+local ncp = Instance.new("TextButton")
+ncp.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("NCP")
+end)
+local gradient_14 = Instance.new("UIGradient")
+local dominoes52 = Instance.new("TextButton")
+dominoes52.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("dominoes52")
+end)
+local gradient_15 = Instance.new("UIGradient")
+local isaac64dxxx = Instance.new("TextButton")
+isaac64dxxx.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("isaac64dxxx")
+end)
+local gradient_16 = Instance.new("UIGradient")
+local luabasescript = Instance.new("TextButton")
+luabasescript.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("LuaBaseScript")
+end)
+local gradient_17 = Instance.new("UIGradient")
+local groovysus = Instance.new("TextButton")
+groovysus.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("GroovySus")
+end)
+local gradient_18 = Instance.new("UIGradient")
+local eviltango = Instance.new("TextButton")
+eviltango.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("EvilTango")
+end)
+local gradient_19 = Instance.new("UIGradient")
+local evilgroovy = Instance.new("TextButton")
+evilgroovy.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("EvilGroovy")
+end)
+local gradient_20 = Instance.new("UIGradient")
+local dababy = Instance.new("TextButton")
+dababy.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("DaBaby")
+end)
+local gradient_21 = Instance.new("UIGradient")
+local cath = Instance.new("TextButton")
+cath.MouseButton1Down:connect(function()
+    game.Workspace.Morph.RemoteFunction:InvokeServer("GamingKittyCath")
+end)
+local gradient_22 = Instance.new("UIGradient")
+local title = Instance.new("TextLabel")
+local creator = Instance.new("TextLabel")
+ 
+ 
+misonware.Name = "misonware"
+misonware.Parent = game.CoreGui
+misonware.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+ 
+window.Name = "window"
+window.Parent = misonware
+window.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+window.Position = UDim2.new(0.300000012, 0, 0.300000012, 0)
+window.Size = UDim2.new(0, 842, 0, 299)
+window.Active = true
+window.Draggable = true
+ 
+corner.CornerRadius = UDim.new(0, 3)
+corner.Name = "corner"
+corner.Parent = window
+ 
+gradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(108, 0, 0)), ColorSequenceKeypoint.new(0.26, Color3.fromRGB(76, 0, 0)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(30, 0, 0))}
+gradient.Rotation = 90
+gradient.Name = "gradient"
+gradient.Parent = window
+ 
+page.Name = "page"
+page.Parent = window
+page.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+page.BorderSizePixel = 0
+page.Position = UDim2.new(0.0144390911, 0, 0.0868147537, 0)
+page.Size = UDim2.new(0, 819, 0, 262)
+ 
+serverside.Name = "serverside"
+serverside.Parent = page
+serverside.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+serverside.Position = UDim2.new(0.731412292, 0, 0.0334429778, 0)
+serverside.Size = UDim2.new(0, 185, 0, 229)
+ 
+serverside_2.Name = "serverside"
+serverside_2.Parent = serverside
+serverside_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+serverside_2.BackgroundTransparency = 1.000
+serverside_2.Position = UDim2.new(0.0324324332, 0, 0, 0)
+serverside_2.Size = UDim2.new(0, 179, 0, 17)
+serverside_2.Font = Enum.Font.SourceSans
+serverside_2.Text = "Serverside"
+serverside_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+serverside_2.TextScaled = true
+serverside_2.TextSize = 14.000
+serverside_2.TextWrapped = true
+ 
+killall.Name = "killall"
+killall.Parent = serverside
+killall.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+killall.Position = UDim2.new(0.071667552, 0, 0.103835031, 0)
+killall.Size = UDim2.new(0, 163, 0, 32)
+killall.Font = Enum.Font.SourceSans
+killall.Text = "Kill All (requires gun, no equip needed)"
+killall.TextColor3 = Color3.fromRGB(0, 0, 0)
+killall.TextScaled = true
+killall.TextSize = 14.000
+killall.TextWrapped = true
+ 
+gradient_2.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_2.Rotation = 90
+gradient_2.Name = "gradient"
+gradient_2.Parent = killall
+ 
+ghost.Name = "ghost"
+ghost.Parent = serverside
+ghost.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ghost.Position = UDim2.new(0.0667917281, 0, 0.316978991, 0)
+ghost.Size = UDim2.new(0, 163, 0, 32)
+ghost.Font = Enum.Font.SourceSans
+ghost.Text = "Ghost"
+ghost.TextColor3 = Color3.fromRGB(0, 0, 0)
+ghost.TextScaled = true
+ghost.TextSize = 14.000
+ghost.TextWrapped = true
+ 
+gradient_3.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_3.Rotation = 90
+gradient_3.Name = "gradient"
+gradient_3.Parent = ghost
+ 
+_100money.Name = "100money"
+_100money.Parent = serverside
+_100money.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_100money.Position = UDim2.new(0.0721395165, 0, 0.539520383, 0)
+_100money.Size = UDim2.new(0, 163, 0, 32)
+_100money.Font = Enum.Font.SourceSans
+_100money.Text = "100 Money"
+_100money.TextColor3 = Color3.fromRGB(0, 0, 0)
+_100money.TextScaled = true
+_100money.TextSize = 14.000
+_100money.TextWrapped = true
+ 
+gradient_4.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_4.Rotation = 90
+gradient_4.Name = "gradient"
+gradient_4.Parent = _100money
+ 
+godmode.Name = "godmode"
+godmode.Parent = serverside
+godmode.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+godmode.Position = UDim2.new(0.0726689622, 0, 0.758282661, 0)
+godmode.Size = UDim2.new(0, 163, 0, 32)
+godmode.Font = Enum.Font.SourceSans
+godmode.Text = "God Mode (equipping gun removes god mode)"
+godmode.TextColor3 = Color3.fromRGB(0, 0, 0)
+godmode.TextScaled = true
+godmode.TextSize = 14.000
+godmode.TextWrapped = true
+ 
+gradient_5.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_5.Rotation = 90
+gradient_5.Name = "gradient"
+gradient_5.Parent = godmode
+ 
+morphs.Name = "morphs"
+morphs.Parent = page
+morphs.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+morphs.Position = UDim2.new(0.0291790236, 0, 0.0334429555, 0)
+morphs.Size = UDim2.new(0, 563, 0, 229)
+ 
+dream.Name = "dream"
+dream.Parent = morphs
+dream.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dream.Position = UDim2.new(0.0591624826, 0, 0.142140478, 0)
+dream.Size = UDim2.new(0, 116, 0, 23)
+dream.Font = Enum.Font.SourceSans
+dream.Text = "???"
+dream.TextColor3 = Color3.fromRGB(0, 0, 0)
+dream.TextScaled = true
+dream.TextSize = 14.000
+dream.TextWrapped = true
+ 
+gradient_6.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_6.Rotation = 90
+gradient_6.Name = "gradient"
+gradient_6.Parent = dream
+ 
+morphs_2.Name = "morphs"
+morphs_2.Parent = morphs
+morphs_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+morphs_2.BackgroundTransparency = 1.000
+morphs_2.Position = UDim2.new(0.013384819, 0, 0, 0)
+morphs_2.Size = UDim2.new(0, 568, 0, 17)
+morphs_2.Font = Enum.Font.SourceSans
+morphs_2.Text = "Gamepass Morphs + Hidden Morphs"
+morphs_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+morphs_2.TextScaled = true
+morphs_2.TextSize = 14.000
+morphs_2.TextWrapped = true
+ 
+christmascath.Name = "christmascath"
+christmascath.Parent = morphs
+christmascath.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+christmascath.Position = UDim2.new(0.281573623, 0, 0.142140478, 0)
+christmascath.Size = UDim2.new(0, 116, 0, 23)
+christmascath.Font = Enum.Font.SourceSans
+christmascath.Text = "Christmas Cath"
+christmascath.TextColor3 = Color3.fromRGB(0, 0, 0)
+christmascath.TextScaled = true
+christmascath.TextSize = 14.000
+christmascath.TextWrapped = true
+ 
+gradient_7.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_7.Rotation = 90
+gradient_7.Name = "gradient"
+gradient_7.Parent = christmascath
+ 
+invisible.Name = "invisible"
+invisible.Parent = morphs
+invisible.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+invisible.Position = UDim2.new(0.501830757, 0, 0.142140478, 0)
+invisible.Size = UDim2.new(0, 116, 0, 23)
+invisible.Font = Enum.Font.SourceSans
+invisible.Text = "Invisible"
+invisible.TextColor3 = Color3.fromRGB(0, 0, 0)
+invisible.TextScaled = true
+invisible.TextSize = 14.000
+invisible.TextWrapped = true
+ 
+gradient_8.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_8.Rotation = 90
+gradient_8.Name = "gradient"
+gradient_8.Parent = invisible
+ 
+blasck.Name = "blasck"
+blasck.Parent = morphs
+blasck.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+blasck.Position = UDim2.new(0.730402172, 0, 0.142140478, 0)
+blasck.Size = UDim2.new(0, 116, 0, 23)
+blasck.Font = Enum.Font.SourceSans
+blasck.Text = ":("
+blasck.TextColor3 = Color3.fromRGB(0, 0, 0)
+blasck.TextScaled = true
+blasck.TextSize = 14.000
+blasck.TextWrapped = true
+ 
+gradient_9.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_9.Rotation = 90
+gradient_9.Name = "gradient"
+gradient_9.Parent = blasck
+ 
+johannes.Name = "johannes"
+johannes.Parent = morphs
+johannes.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+johannes.Position = UDim2.new(0.059162505, 0, 0.294978917, 0)
+johannes.Size = UDim2.new(0, 116, 0, 23)
+johannes.Font = Enum.Font.SourceSans
+johannes.Text = "Johannes"
+johannes.TextColor3 = Color3.fromRGB(0, 0, 0)
+johannes.TextScaled = true
+johannes.TextSize = 14.000
+johannes.TextWrapped = true
+ 
+gradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_10.Rotation = 90
+gradient_10.Name = "gradient"
+gradient_10.Parent = johannes
+ 
+alien.Name = "alien"
+alien.Parent = morphs
+alien.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+alien.Position = UDim2.new(0.283349782, 0, 0.294978917, 0)
+alien.Size = UDim2.new(0, 116, 0, 23)
+alien.Font = Enum.Font.SourceSans
+alien.Text = "Alien"
+alien.TextColor3 = Color3.fromRGB(0, 0, 0)
+alien.TextScaled = true
+alien.TextSize = 14.000
+alien.TextWrapped = true
+ 
+gradient_11.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_11.Rotation = 90
+gradient_11.Name = "gradient"
+gradient_11.Parent = alien
+ 
+zombie.Name = "zombie"
+zombie.Parent = morphs
+zombie.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+zombie.Position = UDim2.new(0.501830816, 0, 0.294978917, 0)
+zombie.Size = UDim2.new(0, 116, 0, 23)
+zombie.Font = Enum.Font.SourceSans
+zombie.Text = "Zombie"
+zombie.TextColor3 = Color3.fromRGB(0, 0, 0)
+zombie.TextScaled = true
+zombie.TextSize = 14.000
+zombie.TextWrapped = true
+ 
+gradient_12.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_12.Rotation = 90
+gradient_12.Name = "gradient"
+gradient_12.Parent = zombie
+ 
+narl.Name = "narl"
+narl.Parent = morphs
+narl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+narl.Position = UDim2.new(0.730402231, 0, 0.294978917, 0)
+narl.Size = UDim2.new(0, 116, 0, 23)
+narl.Font = Enum.Font.SourceSans
+narl.Text = "Narl"
+narl.TextColor3 = Color3.fromRGB(0, 0, 0)
+narl.TextScaled = true
+narl.TextSize = 14.000
+narl.TextWrapped = true
+ 
+gradient_13.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_13.Rotation = 90
+gradient_13.Name = "gradient"
+gradient_13.Parent = narl
+ 
+ncp.Name = "ncp"
+ncp.Parent = morphs
+ncp.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ncp.Position = UDim2.new(0.73217839, 0, 0.447817296, 0)
+ncp.Size = UDim2.new(0, 116, 0, 23)
+ncp.Font = Enum.Font.SourceSans
+ncp.Text = "NCP"
+ncp.TextColor3 = Color3.fromRGB(0, 0, 0)
+ncp.TextScaled = true
+ncp.TextSize = 14.000
+ncp.TextWrapped = true
+ 
+gradient_14.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_14.Rotation = 90
+gradient_14.Name = "gradient"
+gradient_14.Parent = ncp
+ 
+dominoes52.Name = "dominoes52"
+dominoes52.Parent = morphs
+dominoes52.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dominoes52.Position = UDim2.new(0.501453042, 0, 0.447817355, 0)
+dominoes52.Size = UDim2.new(0, 116, 0, 23)
+dominoes52.Font = Enum.Font.SourceSans
+dominoes52.Text = "dominoes52"
+dominoes52.TextColor3 = Color3.fromRGB(0, 0, 0)
+dominoes52.TextScaled = true
+dominoes52.TextSize = 14.000
+dominoes52.TextWrapped = true
+ 
+gradient_15.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_15.Rotation = 90
+gradient_15.Name = "gradient"
+gradient_15.Parent = dominoes52
+ 
+isaac64dxxx.Name = "isaac64dxxx"
+isaac64dxxx.Parent = morphs
+isaac64dxxx.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+isaac64dxxx.Position = UDim2.new(0.282972038, 0, 0.447817355, 0)
+isaac64dxxx.Size = UDim2.new(0, 116, 0, 23)
+isaac64dxxx.Font = Enum.Font.SourceSans
+isaac64dxxx.Text = "isaac64dxxx"
+isaac64dxxx.TextColor3 = Color3.fromRGB(0, 0, 0)
+isaac64dxxx.TextScaled = true
+isaac64dxxx.TextSize = 14.000
+isaac64dxxx.TextWrapped = true
+ 
+gradient_16.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_16.Rotation = 90
+gradient_16.Name = "gradient"
+gradient_16.Parent = isaac64dxxx
+ 
+luabasescript.Name = "luabasescript"
+luabasescript.Parent = morphs
+luabasescript.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+luabasescript.Position = UDim2.new(0.0609387346, 0, 0.447817355, 0)
+luabasescript.Size = UDim2.new(0, 116, 0, 23)
+luabasescript.Font = Enum.Font.SourceSans
+luabasescript.Text = "LuaBaseScript"
+luabasescript.TextColor3 = Color3.fromRGB(0, 0, 0)
+luabasescript.TextScaled = true
+luabasescript.TextSize = 14.000
+luabasescript.TextWrapped = true
+ 
+gradient_17.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_17.Rotation = 90
+gradient_17.Name = "gradient"
+gradient_17.Parent = luabasescript
+ 
+groovysus.Name = "groovysus"
+groovysus.Parent = morphs
+groovysus.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+groovysus.Position = UDim2.new(0.282972038, 0, 0.60502255, 0)
+groovysus.Size = UDim2.new(0, 116, 0, 23)
+groovysus.Font = Enum.Font.SourceSans
+groovysus.Text = "Groovy Sus"
+groovysus.TextColor3 = Color3.fromRGB(0, 0, 0)
+groovysus.TextScaled = true
+groovysus.TextSize = 14.000
+groovysus.TextWrapped = true
+ 
+gradient_18.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_18.Rotation = 90
+gradient_18.Name = "gradient"
+gradient_18.Parent = groovysus
+ 
+eviltango.Name = "eviltango"
+eviltango.Parent = morphs
+eviltango.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+eviltango.Position = UDim2.new(0.0607498363, 0, 0.60502255, 0)
+eviltango.Size = UDim2.new(0, 116, 0, 23)
+eviltango.Font = Enum.Font.SourceSans
+eviltango.Text = "Evil Tango"
+eviltango.TextColor3 = Color3.fromRGB(0, 0, 0)
+eviltango.TextScaled = true
+eviltango.TextSize = 14.000
+eviltango.TextWrapped = true
+ 
+gradient_19.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_19.Rotation = 90
+gradient_19.Name = "gradient"
+gradient_19.Parent = eviltango
+ 
+evilgroovy.Name = "evilgroovy"
+evilgroovy.Parent = morphs
+evilgroovy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+evilgroovy.Position = UDim2.new(0.501452982, 0, 0.60502255, 0)
+evilgroovy.Size = UDim2.new(0, 116, 0, 23)
+evilgroovy.Font = Enum.Font.SourceSans
+evilgroovy.Text = "Evil Groovy"
+evilgroovy.TextColor3 = Color3.fromRGB(0, 0, 0)
+evilgroovy.TextScaled = true
+evilgroovy.TextSize = 14.000
+evilgroovy.TextWrapped = true
+ 
+gradient_20.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_20.Rotation = 90
+gradient_20.Name = "gradient"
+gradient_20.Parent = evilgroovy
+ 
+dababy.Name = "dababy"
+dababy.Parent = morphs
+dababy.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+dababy.Position = UDim2.new(0.73217839, 0, 0.60502255, 0)
+dababy.Size = UDim2.new(0, 116, 0, 23)
+dababy.Font = Enum.Font.SourceSans
+dababy.Text = "DaBaby"
+dababy.TextColor3 = Color3.fromRGB(0, 0, 0)
+dababy.TextScaled = true
+dababy.TextSize = 14.000
+dababy.TextWrapped = true
+ 
+gradient_21.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_21.Rotation = 90
+gradient_21.Name = "gradient"
+gradient_21.Parent = dababy
+ 
+cath.Name = "cath"
+cath.Parent = morphs
+cath.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cath.Position = UDim2.new(0.0609387048, 0, 0.757860959, 0)
+cath.Size = UDim2.new(0, 116, 0, 23)
+cath.Font = Enum.Font.SourceSans
+cath.Text = "Cath"
+cath.TextColor3 = Color3.fromRGB(0, 0, 0)
+cath.TextScaled = true
+cath.TextSize = 14.000
+cath.TextWrapped = true
+ 
+gradient_22.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(255, 255, 255)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(230, 230, 230))}
+gradient_22.Rotation = 90
+gradient_22.Name = "gradient"
+gradient_22.Parent = cath
+ 
+title.Name = "title"
+title.Parent = window
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Position = UDim2.new(0.0139007932, 0, 0, 0)
+title.Size = UDim2.new(0, 361, 0, 25)
+title.Font = Enum.Font.SourceSans
+title.Text = "Misonware for NPCs are becoming smart! Hangout/RP"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+ 
+creator.Name = "creator"
+creator.Parent = window
+creator.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+creator.BackgroundTransparency = 1.000
+creator.Position = UDim2.new(0.0142517816, 0, 0.882005572, 0)
+creator.Size = UDim2.new(0, 159, 0, 23)
+creator.Font = Enum.Font.SourceSans
+creator.Text = "Made by misoneme#9936"
+creator.TextColor3 = Color3.fromRGB(0, 0, 0)
+creator.TextScaled = true
+creator.TextSize = 14.000
+creator.TextWrapped = true
+lname.AntiExploit:remove()
+lname.AntiSpam:remove()
+game.StarterPlayer.StarterCharacterScripts.AntiExploit:remove()
+game.StarterPlayer.StarterCharacterScripts.AntiSpam:remove()
+wait(3)
+antiexploitdisabler:remove()
+print("Thank you for using misonware "..welcome.."!")
+end)
+
+Section:NewButton("Project Bishop FFDT", "funky friday yes", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ZoinkyPoinkie/FunkyFridayDevTools/main/Un-Obfuscated",true))()
+end)
+
+Section:NewButton("Netless Bypass", "yes bypass because im angy with netless", function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ULA6Y3gH", true))()
+end)
+
+Section:NewButton("Simple Reborn", "Nice No Need To Type ;to commands in inf yield", function()
+loadstring(game:HttpGet("https://gist.githubusercontent.com/whierror/9be4b68899237ed018d53f42fd35f5cb/raw/87ebf94d3857bf1cb47047e893cbd354980cc94c/Simple%2520Reborn%2520Script"))()
+end)
+
+local Tab = Window:NewTab("Credit")
+local Section = Tab:NewSection("whi (whierror) Discord : whierror#4391")
+local Section = Tab:NewSection("if link not work i will fix it (sometimes)")
+
+Section:NewButton("Discord Copy", "Copy it to clipboard when press this button", function()
+setclipboard("https://discord.gg/qYPMk6H8")
+end)
+
+
